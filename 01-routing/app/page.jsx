@@ -6,12 +6,13 @@ export default function Home() {
     <br></br>
     <Link prefetch={false} href="docs">Post 1</Link>
     <br></br>
-    <Link prefetch={false} href="docs/asd">Post 2</Link>
+    <Link prefetch={false} href="/docs/abc">Post 2</Link>
     <br></br>
     <Link
       prefetch={false}
+      //target="_blank"
       //replace={true}
-      className="test"
+      className="testcc"
       href={{
         pathname: '/hakkimizda',
         query: {
